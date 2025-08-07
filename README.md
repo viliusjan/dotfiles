@@ -98,4 +98,3 @@ dotfiles/
 
 ## 📄 License
 
-MIT
