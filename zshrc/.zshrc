@@ -1,4 +1,3 @@
-
 # Set the directory we want to store zinit and plugins
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 
@@ -66,5 +65,6 @@ alias vim='nvim'
 alias c='clear'
 
 # Shell integrations
+eval "$(/opt/homebrew/bin/brew shellenv)"
 source <(fzf --zsh)
 eval "$(zoxide init zsh)"
