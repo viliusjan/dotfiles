@@ -94,6 +94,7 @@ dotfiles/
 
 - 📝 Edit configs directly in the dotfiles directory (symlinks auto-sync!)
 - 🔄 Run `stow -R <package>` after making changes
+- 🛡️ Back up existing configs before installing
 
 ## 📄 License
 
