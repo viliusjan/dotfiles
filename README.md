@@ -8,7 +8,7 @@
 ## 📦 What's Inside
 
 - **🎨 nvim** - Neovim editor configuration
-- **💻 wezterm** - Terminal emulator settings  
+- **💻 wezterm** - Terminal emulator settings
 - **🌈 oh-my-posh** - Shell prompt theming
 - **🪟 aerospace** - macOS tiling window manager
 - **⌨️ skhd** - Simple hotkey daemon
@@ -17,12 +17,14 @@
 ## 🚀 Installation
 
 ### Prerequisites
+
 ```bash
 # Install GNU Stow
 brew install stow
 ```
 
 ### 🎯 Quick Setup
+
 ```bash
 git clone https://github.com/viliusjan/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
@@ -30,6 +32,7 @@ stow */
 ```
 
 ### 🎛️ Selective Installation
+
 ```bash
 # Install specific configurations
 stow nvim     # 🎨 Editor
@@ -40,16 +43,19 @@ stow zshrc    # 🐚 Shell
 ## 🔧 Management
 
 ### Remove Configuration
+
 ```bash
 stow -D <package>   # 🗑️ Remove symlinks
 ```
 
-### Update Configuration  
+### Update Configuration
+
 ```bash
 stow -R <package>   # 🔄 Restow package
 ```
 
 ### Check for Conflicts
+
 ```bash
 stow -n <package>   # 🔍 Dry run (no changes)
 ```
@@ -75,20 +81,24 @@ dotfiles/
 ## 📸 Screenshots
 
 ### 🎨 Neovim Configuration
+
 ![Neovim Setup](screenshots/neovim.png)
-*AstroNvim-based configuration with custom plugins and theming*
+_AstroNvim-based configuration with custom plugins and theming_
 
 ### 💻 Terminal Environment
+
 ![WezTerm + Oh My Posh](screenshots/terminal.png)
-*WezTerm with Oh My Posh prompt and custom theme*
+_WezTerm with Oh My Posh prompt and custom theme_
 
 ### 🪟 Window Management
+
 ![Aerospace Tiling](screenshots/aerospace.png)
-*Aerospace window manager in action*
+_Aerospace window manager in action_
 
 ### 🎯 Complete Workspace
+
 ![Full Desktop](screenshots/workspace.png)
-*Complete development environment overview*
+_Complete development environment overview_
 
 ## 💡 Tips
 
@@ -98,3 +108,4 @@ dotfiles/
 
 ## 📄 License
 
+MIT
