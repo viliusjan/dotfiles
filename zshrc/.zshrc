@@ -65,6 +65,7 @@ alias vim='nvim'
 alias c='clear'
 
 # Shell integrations
+eval "$(ssh-agent -s)"
 eval "$(/opt/homebrew/bin/brew shellenv)"
 source <(fzf --zsh)
 eval "$(zoxide init zsh)"
