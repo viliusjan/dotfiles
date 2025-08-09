@@ -11,7 +11,6 @@
 - **💻 wezterm** - Terminal emulator settings  
 - **🌈 oh-my-posh** - Shell prompt theming
 - **🪟 aerospace** - macOS tiling window manager
-- **⌨️ skhd** - Simple hotkey daemon
 - **🐚 zshrc** - Zsh shell configuration
 
 ## 🚀 Installation
