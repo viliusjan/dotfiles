@@ -1,6 +1,0 @@
-# Open Wezterm
-cmd - return: open -na 'wezterm'
-
-# Open Zen
-cmd - w: open -na 'zen'
-
